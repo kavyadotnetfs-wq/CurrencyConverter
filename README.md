@@ -31,6 +31,7 @@ The API starts on `http://localhost:5018` (and `https://localhost:5018`).
 This request converts the source currency to targeted currency values with the exchange rate
 **Example requests**
 # USD → INR
+Run this api using the postman by the selecting the verb as get and paste this url there(ensure that dotnet project is running locally)
 curl(GET) "http://localhost:5000/convert?sourceCurrency=USD&targetCurrency=INR&amount=100"
 
 # EUR → USD
